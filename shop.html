@@ -1,24 +1,77 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brand Landing Page</title>
-    <style>
-        body { font-family: Arial, sans-serif; }
-        .brand-section { margin: 20px; padding: 20px; border: 1px solid #ccc; border-radius: 5px; }
-        .brand-title { font-size: 24px; font-weight: bold; }
-        .brand-link { text-decoration: none; color: blue; }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shop - GoodGame (LLC)</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="shop-style.css" />
 </head>
 <body>
-    <h1>Welcome to Our Brands</h1>
-    <div class="brand-section">
-        <div class="brand-title">GoodGame</div>
-        <p>Your go-to for gaming gear and accessories. <a class="brand-link" href="https://www.goodgame.com">Visit GoodGame</a></p>
+
+<!-- HEADER/NAV -->
+<header class="nav">
+  <h1 class="logo"><a href="index.html">GOODGAME</a></h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="shop.html" class="active">Shop</a>
+    <a href="index.html#about">About</a>
+    <a href="index.html#join">Join</a>
+  </nav>
+</header>
+
+<!-- BRANDS SECTION -->
+<section class="brands-header">
+  <h2>Choose Your Brand</h2>
+  <p>Explore our distinct collections</p>
+</section>
+
+<section class="brands-container">
+  <!-- GoodGame Brand -->
+  <div class="brand-card goodgame-card">
+    <div class="brand-visual">
+      <div class="brand-icon gg-icon">🎮</div>
     </div>
-    <div class="brand-section">
-        <div class="brand-title">Healthy Habits</div>
-        <p>Your source for healthy snacks and lifestyle products. <a class="brand-link" href="https://www.healthyhabits.com">Visit Healthy Habits</a></p>
+    <div class="brand-content">
+      <h3>GoodGame</h3>
+      <p>Music drops, limited edition apparel, and digital art. Exclusive releases and special promotions for the culture.</p>
+      <div class="brand-features">
+        <span>🎵 Music</span>
+        <span>👕 Drops</span>
+        <span>🎨 Art</span>
+      </div>
+      <a href="goodgame-shop.html" class="btn btn-gg">Explore GoodGame</a>
     </div>
+  </div>
+
+  <!-- Healthy Habits Brand -->
+  <div class="brand-card healthy-card">
+    <div class="brand-visual">
+      <div class="brand-icon hh-icon">🌿</div>
+    </div>
+    <div class="brand-content">
+      <h3>Healthy Habits</h3>
+      <p>Holistic lifestyle products, wellness goods, and editorial content. Wellness essentials meets curated lifestyle.</p>
+      <div class="brand-features">
+        <span>🧘 Wellness</span>
+        <span>📚 Editorial</span>
+        <span>🌱 Goods</span>
+      </div>
+      <a href="healthy-habits-shop.html" class="btn btn-hh">Explore Healthy Habits</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-content">
+    <p>© 2026 GoodGame (LLC)</p>
+    <p><a href="https://instagram.com/yourhandle" target="_blank">Instagram</a> | <a href="#">Contact</a></p>
+  </div>
+</footer>
+
 </body>
 </html>
